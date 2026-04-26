@@ -99,6 +99,11 @@ a {
   color: var(--link-bg)
 }
 
+.link-item:focus {
+  background-color: var(--text-color-green);
+  color: var(--link-bg)
+}
+
 @media(max-width:600px) {
   .container {
     max-width: 17.5rem;
