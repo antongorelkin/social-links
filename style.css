@@ -101,7 +101,8 @@ a {
 
 .link-item:focus {
   background-color: var(--text-color-green);
-  color: var(--link-bg)
+  color: var(--link-bg);
+  outline: 3px solid var(--bg-color);
 }
 
 @media(max-width:600px) {
